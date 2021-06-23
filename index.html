@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Google font icons -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+    <title>Gmail clone</title>
+    
+
+</head>
+<body>
+    <!-- Header section -->
+    <div class="header">
+        <div class="header_left">
+            <span class="material-icons">
+                menu
+                </span>
+                <img src="https://cdn.vox-cdn.com/thumbor/Tbqi3ZF9Qz0fTJIUvkgQe3FdN0k=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21939811/newgmaillogo.jpg" alt="Gmail">
+        </div>
+        <div class="header_center">
+            <span class="material-icons"> search </span>
+            <input type="text" placeholder="Search">
+            <span class="material-icons"> arrow_drop_down </span>
+        </div>
+        <div class="header_right">
+            <span class="material-icons"> apps </span>
+            <span class="material-icons"> notifications </span>
+            <span class="material-icons"> account_circle </span>
+        </div>
+        <!-- header section ends -->
+    </div>
+    
+    
+    <!-- body section -->
+    <div class="main_body">
+        <!-- sidebar section -->
+             <div class="sidebar">
+                 <button class="compose"><span class="material-icons"> add </span>Compose</button>
+                 <div class="sidebar_option sidebar_active">
+                   <span class="material-icons"> inbox </span><h3>Inbox</h3>
+                </div>
+                <div class="sidebar_option sidebar_active">
+                  <span class="material-icons"> star </span><h3>Starred</h3> 
+                </div>
+                <div class="sidebar_option sidebar_active">
+                  <span class="material-icons"> access_time </span><h3>Snoozed</h3> 
+                </div>
+                <div class="sidebar_option sidebar_active">
+                  <span class="material-icons"> label_important </span><h3>Important</h3> 
+                </div>
+                <div class="sidebar_option sidebar_active">
+                   <span class="material-icons"> near_me </span><h3>Sent</h3>
+                </div>
+                <div class="sidebar_option sidebar_active">
+                  <span class="material-icons"> note </span><h3>Draft</h3> 
+                </div>
+                
+                <div class="sidebar_option sidebar_active">
+                  <span class="material-icons"> expand_more </span><h3>More</h3> 
+                </div>
+                
+             </div>
+             
+         <!-- sidebar section ends  -->
+        
+        
+         <!-- email list starts -->
+             <div class="emailList">
+              <!-- Settings Starts -->
+                 <div class="emailList__settings">
+                   <div class="emailList__settingsLeft">
+                     <input type="checkbox" />
+                     <span class="material-icons"> arrow_drop_down </span>
+                     <span class="material-icons"> redo </span>
+                     <span class="material-icons"> more_vert </span>
+                   </div>
+                   <div class="emailList__settingsRight">
+                     <span class="material-icons"> chevron_left </span>
+                     <span class="material-icons"> chevron_right </span>
+                     <span class="material-icons"> keyboard_hide </span>
+                     <span class="material-icons"> settings </span>
+                   </div>
+                 </div>
+                       <!-- Settings Ends -->
+                       
+                      
+                       <!-- Section Starts -->
+        <div class="emailList__sections">
+            <div class="section section__selected">
+              <span class="material-icons"> inbox </span>
+              <h4>Primary</h4>
+            </div>
+  
+            <div class="section">
+              <span class="material-icons"> people </span>
+              <h4>Social</h4>
+            </div>
+  
+            <div class="section">
+              <span class="material-icons"> local_offer </span>
+              <h4>Promotions</h4>
+            </div>
+          </div>
+          <!-- Section Ends -->
+          
+          
+          <!-- Email List rows starts -->
+        <div class="emailList__list">
+          
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" />
+              <span class="material-icons"> star_border </span>
+          <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">New Email</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You got a new Email
+                <span class="emailRow__description">- kindly respond to this mail. </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">2:00pm</p>
+          </div>
+          <!-- Email Row Ends -->
+      </div>
+         <!-- email list ends -->
+        
+    </div>
+    <!-- body section ends -->
+ </body>
+</html>
